@@ -1,4 +1,3 @@
-# todo_app_final.py
 import tkinter as tk
 from tkinter import ttk, messagebox
 import json
@@ -35,7 +34,6 @@ class SplashScreen:
         self.canvas.create_text(200, 200, text="در حال بارگذاری...", 
                                font=("Tahoma", 12), fill="white")
         
-        # امضای توسعه‌دهنده - **تغییر: رنگ خاکستری روشن**
         self.canvas.create_text(200, 250, 
                                text="توسعه‌دهنده: مهزیار رضایی یزدی", 
                                font=("Tahoma", 10), fill="#e0e0e0")  # تغییر: رنگ ساده
